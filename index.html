@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypt of the NecroDancer - Rhythm Roguelike Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-music"></i>
+                <span>НекроТанцор</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Главная</a></li>
+                <li><a href="#overview" class="nav-link">О игре</a></li>
+                <li><a href="#characters" class="nav-link">Персонажи</a></li>
+                <li><a href="#features" class="nav-link">Функции</a></li>
+                <li><a href="#music" class="nav-link">Музыка</a></li>
+                <li><a href="#gallery" class="nav-link">Галлерея</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-crypt">СКЛЕП</span>
+                    <span class="title-necro">НЕКРОТАНЦОРА</span>
+                </h1>
+                <p class="hero-subtitle">Хардкорная роглайковая ритм игра, которая сделает ваше сердцебиение бить под музыку</p>
+                <div class="hero-features">
+                    <div class="feature-pill">
+                        <i class="fas fa-drum"></i>
+                        <span>Основанные на ритме Битвы</span>
+                    </div>
+                    <div class="feature-pill">
+                        <i class="fas fa-dice"></i>
+                        <span>Роглайковае Приключенние</span>
+                    </div>
+                    <div class="feature-pill">
+                        <i class="fas fa-users"></i>
+                        <span>15 Персонажей</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="beat-indicator">
+                    <div class="beat-circle"></div>
+                    <div class="beat-circle"></div>
+                    <div class="beat-circle"></div>
+                    <div class="beat-circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Game Overview -->
+    <section id="overview" class="overview">
+        <div class="container">
+            <h2 class="section-title">О игре</h2>
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Оснаванный на Ритме Геймплей</h3>
+                    <p>Все действия должны быть под ритм. двигайтесь, аттакуйте, и изучайте с идеальной синхронизацией под ритм.</p>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-skull"></i>
+                    </div>
+                    <h3>Хардкорный Роглайк</h3>
+                    <p>Процедурно сгенерированые подземелья. Когда ты умираешь, ты начинаешь с начала, но вечные прокачки сохраняются.</p>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chess-board"></i>
+                    </div>
+                    <h3>Оснванные на Сетке Битвы</h3>
+                    <p>Стратегические пошаговые бои, замаскированные под ритмичный геймплей в реальном времени. В этом смертоносном танце важен каждый шаг.</p>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Поддержка собственной музыки</h3>
+                    <p>Импортируйте свою собственную MP3 коллекцию. Алгоритм следования бита игры анализирует скорость любой музыки автоматически.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Characters Section -->
+    <section id="characters" class="characters">
+        <div class="container">
+            <h2 class="section-title">Выбери Своего Танцора</h2>
+            <p class="section-subtitle">15 unique characters with distinct playstyles and challenges</p>
+            <div class="characters-grid">
+                <div class="character-card main-character">
+                    <div class="character-avatar">
+                        <img src="Cadence.png" alt="Cadence" class="character-image">
+                    </div>
+                    <h3>Cadence</h3>
+                    <p class="character-role">The Protagonist</p>
+                    <p>The main character searching for her missing father in the NecroDancer's crypt. Balanced gameplay perfect for beginners.</p>
+                    <div class="character-stats">
+                        <div class="stat">
+                            <span class="stat-label">Difficulty:</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="character-card">
+                    <div class="character-avatar">
+                        <img src="Nocturna.png" alt="Nocturna" class="character-image">
+                    </div>
+                    <h3>Nocturna</h3>
+                    <p class="character-role">The Shadow Dancer</p>
+                    <p>Featured in the AMPLIFIED DLC, this mysterious character brings new mechanics and storylines to explore.</p>
+                    <div class="character-stats">
+                        <div class="stat">
+                            <span class="stat-label">Difficulty:</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="character-card">
+                    <div class="character-avatar">
+                        <img src="Bolt.png" alt="Extreme Characters" class="character-image">
+                    </div>
+                    <h3>Extreme Characters</h3>
+                    <p class="character-role">Master's Challenge</p>
+                    <p>Some characters die if they miss a single beat. Only the most skilled rhythm masters can survive these challenges.</p>
+                    <div class="character-stats">
+                        <div class="stat">
+                            <span class="stat-label">Difficulty:</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Gameplay Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="https://pixabay.com/get/gc595b91126feabef7d3c431b162715d92a3150ceb86a38b35272f44f315368bf963206411b8b20b1a4b84982995fb812432ec12e1f420585cd4993de5f1ec0c9_1280.jpg" alt="Rhythm gameplay" class="feature-image">
+                    <div class="feature-content">
+                        <h3>Equipment & Progression</h3>
+                        <p>Collect and upgrade equipment across multiple slots: shovel, weapon, armor, shoes, torch, and accessories. Build your perfect loadout for the crypt.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> 7 Equipment slots</li>
+                            <li><i class="fas fa-check"></i> Permanent diamond upgrades</li>
+                            <li><i class="fas fa-check"></i> Various weapon attack patterns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-item reverse">
+                    <img src="https://pixabay.com/get/gb445157b691690e626ce8d537dba3acd35f4e591f3885d79a4ff302de987ace001c570789c802ede82ceadae4b7beccc657558db5a7aacf49a82040ef69d14b7_1280.jpg" alt="Retro gaming" class="feature-image">
+                    <div class="feature-content">
+                        <h3>Multiple Game Modes</h3>
+                        <p>Experience the crypt in various ways with story mode, daily challenges, score attacks, and multiplayer modes for up to 8 players.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Story campaign</li>
+                            <li><i class="fas fa-check"></i> Daily challenges</li>
+                            <li><i class="fas fa-check"></i> Online multiplayer (DLC)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="https://pixabay.com/get/g1f11a7d7ad1125286ceb726892c76c847858fdf1395ee68a3fd0d0bf7a81daff29845016467b12f967ec0841a636162efd3b939cb270aaf79c6c176efdc4680f_1280.jpg" alt="Gaming controller" class="feature-image">
+                    <div class="feature-content">
+                        <h3>Control Options</h3>
+                        <p>Play your way with keyboard, controller, or even USB dance pads for the ultimate rhythm gaming experience.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Keyboard & controller support</li>
+                            <li><i class="fas fa-check"></i> USB dance pad compatibility</li>
+                            <li><i class="fas fa-check"></i> Mobile touch controls</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music">
+        <div class="container">
+            <h2 class="section-title">Music & Rhythm</h2>
+            <div class="music-content">
+                <div class="music-info">
+                    <h3>Original Soundtrack by Danny Baranowsky</h3>
+                    <p>The heart of NecroDancer beats with an incredible soundtrack designed to vary in speed and complexity. Every track is crafted to enhance the rhythm-based gameplay experience.</p>
+                    
+                    <div class="music-features">
+                        <div class="music-feature">
+                            <i class="fas fa-volume-up"></i>
+                            <div>
+                                <h4>Custom Music Support</h4>
+                                <p>Import your entire MP3 collection and play to any beat</p>
+                            </div>
+                        </div>
+                        <div class="music-feature">
+                            <i class="fas fa-microchip"></i>
+                            <div>
+                                <h4>Beat-Tracking Algorithm</h4>
+                                <p>Advanced analysis automatically sets tempo for any song</p>
+                            </div>
+                        </div>
+                        <div class="music-feature">
+                            <i class="fas fa-compact-disc"></i>
+                            <div>
+                                <h4>Multiple Remixes</h4>
+                                <p>EDM, heavy metal, synthwave, and more soundtrack variants</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="music-visual">
+                    <div class="equalizer">
+                        <div class="eq-bar"></div>
+                        <div class="eq-bar"></div>
+                        <div class="eq-bar"></div>
+                        <div class="eq-bar"></div>
+                        <div class="eq-bar"></div>
+                        <div class="eq-bar"></div>
+                        <div class="eq-bar"></div>
+                        <div class="eq-bar"></div>
+                    </div>
+                    <p class="music-quote">"Missing beats results in penalties: coin multiplier loss, enemies move while you don't, equipment bonuses lost"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Visual Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/gd271aab78469aa1d66d66901e56c616fc7cc842bca9e2fa01c42f5635c0c63b6ef0b289d8209169c00936b4e9420a8b3eb7de74130c14f89a42f7d4300bef847_1280.jpg" alt="Rhythm gaming screenshot" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Beat-Perfect Combat</h4>
+                        <p>Every action synced to the rhythm</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/g69d56499d8adf53eeeb72e1de6080093ed0b7c514bea38e6f392d7e8a083abe17f220e8edb22552d950b9e9c593ceff1400106f3a92edfadf0708e7d053d587f_1280.jpg" alt="8-bit pixel art" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Pixel Art Style</h4>
+                        <p>Beautiful retro-inspired visuals</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/g1ca859caa688885ec93e49e523c57e5d32806f165fa45aedf9092195b0b556f965df54426109e2896642422b380ee6784db90d8869740183251048acd65e7c4c_1280.jpg" alt="Retro gaming aesthetic" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Retro Aesthetic</h4>
+                        <p>Classic arcade gaming vibes</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/g238264d49558275c64f4da52ef6c1608587253b81eebe0dfabc340735eb3bb15aacaf2930c9f519bf57601103448f039f57c3ec5a0f7210c8eae437cd3db902c_1280.jpg" alt="8-bit style gaming" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Dungeon Crawling</h4>
+                        <p>Procedurally generated crypts</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/g14d2441cad8da6500e688644de254123c7fd883f2d837af0b113d30744e165222a083de002e689b5d467928f102a0e24f1a7ea3e4d07a3656da21685f991a42b_1280.jpg" alt="Gaming setup" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>Multiple Platforms</h4>
+                        <p>Available on PC, console, and mobile</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://pixabay.com/get/gec886239e55233aa8455d2434308790542419bdbe5f45e97aaf71acae93433c8a505b3260a1582497f1a4ce0319e03f4d7156cf69d0c659764d64bf2430713d8_1280.jpg" alt="Retro arcade" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h4>DLC Expansions</h4>
+                        <p>AMPLIFIED, SYNCHRONY & more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Crypt of the NecroDancer</h3>
+                    <p>The hardcore roguelike rhythm game that combines dungeon crawling with beat-matching mechanics.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-steam"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Game Info</h4>
+                    <ul>
+                        <li>Developer: Brace Yourself Games</li>
+                        <li>Composer: Danny Baranowsky</li>
+                        <li>Genre: Rhythm Roguelike</li>
+                        <li>Platforms: PC, PS4/Vita, Xbox One, Switch, iOS</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>DLC Available</h4>
+                    <ul>
+                        <li>AMPLIFIED - Prequel expansion</li>
+                        <li>SYNCHRONY - Multiplayer & mod support</li>
+                        <li>Hatsune Miku Character Pack</li>
+                        <li>Additional soundtrack remixes</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Brace Yourself Games. All rights reserved. This is a fan-made portfolio showcase.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
